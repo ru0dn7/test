@@ -1,0 +1,25 @@
+[11-May-2025 06:01:59] Form submitted at: 2025-05-11 06:01:59
+[11-May-2025 06:01:59] POST data: Array
+(
+    [category] => business
+    [name] => 435r43
+    [email] => 43534@dsfsd.dfs
+    [phone] => 231423
+    [company] => 2342
+    [subject] => 234r234
+    [content] => 2343r
+)
+
+[11-May-2025 06:02:02] Form submitted at: 2025-05-11 06:02:02
+[11-May-2025 06:02:02] POST data: Array
+(
+    [category] => business
+    [name] => 435r43
+    [email] => 43534@dsfsd.dfs
+    [phone] => 231423
+    [company] => 2342
+    [subject] => 234r234
+    [content] => 2343r
+    [privacy_agree] => 1
+)
+

@@ -1,0 +1,170 @@
+.subpage {
+  padding-top: 80px;
+}
+
+.intro-basic {
+  margin-bottom: 60px;
+  padding: 100px 0;
+}
+
+.intro-basic .title {
+  font-size: 3rem;
+  font-weight: 300;
+  color: #000;
+  margin-bottom: 16px;
+}
+
+.intro-basic .title b {
+  font-weight: 500;
+}
+
+.intro-basic .label {
+  display: block;
+  color: #2E61E6;
+  font-size: 1.2rem;
+  margin-bottom: 16px;
+  font-weight: 800;
+}
+
+.sp-article {
+  margin-top: 60px;
+}
+
+.mt--0 {
+  margin-top: 0;
+}
+
+.achieve-ls {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.achieve-ls th {
+  border-top: 2px solid #2E61E6;
+}
+.achieve-ls th,
+.achieve-ls td:not(tfoot td) {
+  padding: 20px;
+  text-align: left;
+  border-bottom: 1px solid #eee;
+}
+
+.achieve-ls th {
+  font-weight: 600;
+  color: #2E61E6;
+}
+
+.achieve-ls .tit {
+  font-weight: 500;
+  color: #000;
+  font-weight: 800;
+}
+
+.achieve-ls .gray {
+  color: #aaa;
+}
+
+.achieve-ls .v-m {
+  vertical-align: middle;
+}
+
+.achieve-ls .hide {
+  display: none;
+}
+
+.load-btn {
+  background: none;
+  border: none;
+  color: #2466d1;
+  font-size: 1rem;
+  cursor: pointer;
+  padding: 20px;
+  width: 100%;
+}
+
+.load-btn.disabled {
+  color: #999;
+  cursor: default;
+}
+
+.sp-article--banner {
+  background: #f7faff;
+  padding: 80px 0;
+  margin-top: 100px;
+}
+
+.sp-title-2 {
+  font-size: 2rem;
+  margin-bottom: 40px;
+}
+
+.fc--black {
+  color: #222;
+}
+
+.fw--500 {
+  font-weight: 500;
+}
+
+.ta--c {
+  text-align: center;
+}
+
+.partner-list {
+  overflow: hidden;
+  white-space: nowrap;
+  position: relative;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.partner-list__row {
+  display: inline-block;
+  margin-bottom: 30px;
+  transition: all 0.5s ease;
+}
+
+.partner-list__row:nth-child(1),
+.partner-list__row:nth-child(3) {
+  animation: slide-left 30s linear infinite;
+}
+
+.partner-list__row:nth-child(2) {
+  animation: slide-right 30s linear infinite;
+}
+
+.partner-list__row:hover {
+  animation-play-state: paused;
+}
+
+.partner-list__row img {
+  width: 250px;
+  height: 105px;
+  margin: 0 20px;
+  vertical-align: middle;
+  display: inline-block;
+  box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.1);
+  background: #fff;
+  border-radius: 10px;
+  margin-right: 20px;
+  padding: 20px 10px;
+}
+
+@keyframes slide-left {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+@keyframes slide-right {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
