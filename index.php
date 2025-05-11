@@ -8,6 +8,8 @@
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="./css/reset.css">
     <link rel="stylesheet" href="./css/common.css">
+    <link rel="stylesheet" href="css/smart-industry.css">
+    <script src="js/smart-industry.js" defer></script>
 </head>
 
 <body>
@@ -102,9 +104,44 @@
     <!-- Smart Industry Section -->
     <section class="smart-industry">
         <div class="container">
-            <h2>Smart Industry</h2>
-            <p>스마트한 산업 현장을 만들어갑니다</p>
-            <button class="learn-more">자세히 보기</button>
+            <ul class="accordion">
+                <li class="item active">
+                    <div class="bg"></div>
+                    <div class="cont">
+                        <h4 class="tit">Smart City</h4>
+                        <p class="desc">스마트 시티를 위한 디지털 트윈 솔루션 플랫폼</p>
+                        <a href="#none" class="round-button"><span>자세히 알아보기</span></a>
+                    </div>
+                    <span class="tag">Smart City</span>
+                </li>
+                <li class="item">
+                    <div class="bg"></div>
+                    <div class="cont">
+                        <h4 class="tit">Smart Industry</h4>
+                        <p class="desc">스마트 산업단지를 위한 디지털 트윈 플랫폼</p>
+                        <a href="#none" class="round-button"><span>자세히 알아보기</span></a>
+                    </div>
+                    <span class="tag">Smart Industry</span>
+                </li>
+                <li class="item">
+                    <div class="bg"></div>
+                    <div class="cont">
+                        <h4 class="tit">Digital SOC</h4>
+                        <p class="desc">스마트 인프라를 위한 디지털 트윈 플랫폼</p>
+                        <a href="#none" class="round-button"><span>자세히 알아보기</span></a>
+                    </div>
+                    <span class="tag">Digital SOC</span>
+                </li>
+                <li class="item">
+                    <div class="bg"></div>
+                    <div class="cont">
+                        <h4 class="tit">Sports & Leisure</h4>
+                        <p class="desc">스마트 스포츠&레저를 위한 디지털 트윈 플랫폼</p>
+                        <a href="#none" class="round-button"><span>자세히 알아보기</span></a>
+                    </div>
+                    <span class="tag">Sports & Leisure</span>
+                </li>
+            </ul>
         </div>
     </section>
 
@@ -218,27 +255,8 @@
                 <div class="footer__right">
                     <div class="footer__cta">
                         <p class="footer__text">플럭시티의<br><span>디지털 트윈 플랫폼</span>을 만나보세요.</p>
-                        <span class="footer__more">문의하기</span>
+                        <a href="./contact_us.php" class="footer__more">문의하기</a>
                     </div>
-
-
-                    <!-- <div class="footer__right-content">
-                        <p>Brand</p>
-                        <div class="footer__brands-container">
-                            <div class="footer__brands">
-                                <img class="footer__brand-logo" src="./images/golf-logo-small.png" alt="Golf">
-                                <img class="footer__brand-logo" src="./images/safers-logo-small.png" alt="Safers">
-                            </div>
-                            <div class="footer__social">
-                                <a href="#" class="footer__social-link">
-                                    <img src="./images/youtube-icon.png" alt="YouTube">
-                                </a>
-                                <a href="#" class="footer__social-link">
-                                    <img src="./images/linkedin-icon.png" alt="LinkedIn">
-                                </a>
-                            </div>
-                        </div>
-                    </div> -->
                     <div class="footer__right-content">
                         <div class="footer__brands">
                             <span>brand</span>

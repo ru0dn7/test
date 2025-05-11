@@ -42,7 +42,7 @@ body {
     position: absolute;
     left: 0;
     right: 0;
-    top: 200px;
+    top: 250px;
     line-height: 120%;
 }
 
@@ -191,7 +191,6 @@ body {
 
 /* Smart Industry Section */
 .smart-industry {
-    background: pink;
 }
 
 .more-btn {

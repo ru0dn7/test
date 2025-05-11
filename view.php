@@ -60,7 +60,7 @@ $nextPost = $nextStmt->fetch(PDO::FETCH_ASSOC);
         }
     </script>
 </head>
-<body>
+<body class="view-page">
     <header>
         <div class="header-container">
             <h1><a href="index.php"><span class="hidden">PLUXITY</span><img src="./images/logo.png" alt="PLUXITY"></a></h1>
@@ -90,7 +90,7 @@ $nextPost = $nextStmt->fetch(PDO::FETCH_ASSOC);
             </div>
 
             <article class="news-content">
-                <h2 class="title"><?php echo htmlspecialchars($post['title']); ?></h2>
+                <h2 class="title"><?php echo nl2br(htmlspecialchars($post['title'])); ?></h2>
                 <div class="news-meta">
                     <span class="category"><?php echo htmlspecialchars($post['category']); ?></span>
                     <span class="date"><?php echo date('Y. m. d', strtotime($post['created_at'])); ?></span>
@@ -160,27 +160,8 @@ $nextPost = $nextStmt->fetch(PDO::FETCH_ASSOC);
                 <div class="footer__right">
                     <div class="footer__cta">
                         <p class="footer__text">플럭시티의<br><span>디지털 트윈 플랫폼</span>을 만나보세요.</p>
-                        <span class="footer__more">문의하기</span>
+                        <a href="./contact_us.php" class="footer__more">문의하기</a>
                     </div>
-
-
-                    <!-- <div class="footer__right-content">
-                        <p>Brand</p>
-                        <div class="footer__brands-container">
-                            <div class="footer__brands">
-                                <img class="footer__brand-logo" src="./images/golf-logo-small.png" alt="Golf">
-                                <img class="footer__brand-logo" src="./images/safers-logo-small.png" alt="Safers">
-                            </div>
-                            <div class="footer__social">
-                                <a href="#" class="footer__social-link">
-                                    <img src="./images/youtube-icon.png" alt="YouTube">
-                                </a>
-                                <a href="#" class="footer__social-link">
-                                    <img src="./images/linkedin-icon.png" alt="LinkedIn">
-                                </a>
-                            </div>
-                        </div>
-                    </div> -->
                     <div class="footer__right-content">
                         <div class="footer__brands">
                             <span>brand</span>
